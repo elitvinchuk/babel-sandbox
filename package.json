@@ -1,0 +1,14 @@
+{
+  "name": "babel-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "babelify": "babel index.js --out-dir out"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}
